@@ -1,0 +1,56 @@
+<html>
+<style>
+    body {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "graph"
+            "text";
+        margin: 0px;
+    }
+    .graph {
+        background-image: linear-gradient(#0ef7bc, aliceblue);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .text {
+        background-color: aliceblue;
+        height: 100%;
+        width: 100%;
+    }
+    .graph #bar {
+        width: 50%;
+    }
+</style>
+
+
+
+
+<body>
+    <div class = "graph">
+        <canvas id = "bar">
+        </canvas>
+    </div>
+    <div class = "text">
+        <div class = "days">
+            <button>1-Day</button>
+            <button>7-Day</button>
+            <button>Overall</button>
+        </div>
+        <div class = "category">
+            <p>Calories</p>
+            <p>Fat</p>
+            <p>Cholesterol</p>
+            <p>Sodium</p>
+            <p>Carbohydrate</p>
+            <p>Sugar</p>
+            <p>Protein</p>
+        </div>
+
+    </div>
+</body>
+</html>

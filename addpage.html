@@ -1,0 +1,84 @@
+<html>
+<style>
+    body {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "top"
+            "bottom";
+        margin: 0px;
+    }
+    .top {
+        background-image: linear-gradient(#0ef7bc, aliceblue);
+        height: 100%;
+        width: 100%;
+    }
+    .bottom {
+        background-color: aliceblue;
+        height: 100%;
+        width: 100%;
+    }
+</style>
+
+
+
+
+<body>
+    <div class = "top">
+        <table>
+            <tr>
+                <th>Calories</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+            <tr>
+                <th>Fat</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+            <tr>
+                <th>Cholesterol</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+            <tr>
+                <th>Sodium</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+            <tr>
+                <th>Carbohydrate</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+            <tr>
+                <th>Sugar</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+            <tr>
+                <th>Protein</th>
+                <td>
+                    <input type="number" placeholder=0>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class = "bottom">
+        <div class = buttons>
+            <button>Photo of Nutrition</button>
+            <button>Previous Entries</button>
+            <button>Submit</button>
+        </div>
+        
+    </div>
+</body>
+</html>

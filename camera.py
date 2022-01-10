@@ -36,7 +36,6 @@ def reader():
    for x in range(len(words)):
       if words[x] == "Calories" and calories == None and (checker(words[x+1]) or words[x+1][0] == "O"):
          calories = words[x+1]
-         calories = fixing(calories)
       elif words[x] == "Fat" and fat == None and checker(words[x+1]):
          fat = words[x + 1]
          fat = fixing(fat)
